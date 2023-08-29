@@ -13,9 +13,10 @@
 % style options are 'casual' (default), 'classic', 'banking', 'oldstyle' and 'fancy'
 % color options 'black', 'blue' (default), 'burgundy', 'green', 'grey', 'orange', 'purple' and 'red'
 \moderncvstyle{banking}
-\moderncvcolor{blue}
+\moderncvcolor{burgundy}
 %\moderncvtheme[blue]{classic}
 \usepackage[]{hyphenat}
+\usepackage{fontspec}
 
  $if(linestretch)$
  \usepackage{setspace}
@@ -147,7 +148,7 @@ $for(presentation.item)$
 \cvitem{$presentation.item.year$}{$presentation.item.title$}
 $endfor$
 
-\section{Organizational and teaching activites}
+\section{Awards and honors}
 $for(teaching.item)$
 \cvitem{$teaching.item.year$}{$teaching.item.title$}
 $endfor$
@@ -162,7 +163,6 @@ $for(info.item)$
 \cvitem{$info.item.type$}{$info.item.entry$}
 $endfor$
 
-\newpage
 \section{Referee Information}
 $for(referee.item)$
 \cvitem{$referee.item.type$}{$referee.item.name$}
