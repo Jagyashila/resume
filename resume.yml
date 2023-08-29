@@ -3,7 +3,7 @@ firstname: Jagyashila
 lastname: Das
 email: jagyashiladas22@gmail.com, jd1@nibmg.ac.in
 phone: +91-8017586933
-linkedin: jagyashila-das
+linkedin: jagyashila-das-097124104
 github: Jagyashila
 homepage: jagyashiladas.github.io/
 
@@ -52,6 +52,17 @@ experience:
         Supervisor: Prof. Anita Mukherjee
       - >
         Thesis title: Genotoxicity testing of ethyl methyl sulphonate (EMS).
+
+teaching:
+  item:
+    - year: 2015
+      title: Council of Scientific & Industrial Research -University Grants Commission National Eligibility Test-Junior Research Fellowship (CSIR-UGC NET-JRF), National Rank-128
+    - year: 2023
+      title: International Travel Grant Support for non-ICMR Scientists, Indian Council of Medical Research (ICMR)
+    - year: 2023
+      title: Department of Biotechnology Conference, Travel, Exhibition and Popular Lectures (DBT-CTEP)
+    - year: 2023
+      title: Council of Scientific & Industrial Research Human Resources Development Group (CSIR-HRDG) Travel grant for International travel
   
 interest:
   item:
@@ -87,7 +98,7 @@ publication:
         De, A., Das, A., Joardar, M., M., Majumdar, A., **Das, J.**, Roychowdhury, T. ``Investigating spatial distribution of fluoride in groundwater with respect to hydro-geochemical characteristics and associated probabilistic health risk in Baruipur block of West Bengal, India", Science of The Total Environment Volume 886, August 2023, 163877.
     - year: 2022
       title: >
-        Joardar, M., Das, A., Roy Chowdhury, N., Mridha, D., Das, J., De, A., Majumder, S., Majumdar, KK., and Roychowdhury, T. ``Impact of treated drinking water on arsenicosis patients with continuous consumption of contaminated dietary foodstuffs- A longitudinal health effect study from arsenic prone area, West Bengal, India",  Groundwater for Sustainable Development, Volume 18, August 2022, 100786
+        Joardar, M., Das, A., Roy Chowdhury, N., Mridha, D., **Das, J.**, De, A., Majumder, S., Majumdar, KK., and Roychowdhury, T. ``Impact of treated drinking water on arsenicosis patients with continuous consumption of contaminated dietary foodstuffs- A longitudinal health effect study from arsenic prone area, West Bengal, India",  Groundwater for Sustainable Development, Volume 18, August 2022, 100786
     - year: 2021
       title: >
         **Das, J.**, and Maitra, A. ``Maternal DNA Methylation During Pregnancy, a Review", Reproductive Sciences, 2021 Oct;28(10):2758-2769. 
