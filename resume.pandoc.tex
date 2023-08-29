@@ -16,10 +16,16 @@
 \moderncvcolor{burgundy}
 %\moderncvtheme[burgundy]{classic}
 \usepackage[]{hyphenat}
+\usepackage{fontspec}
 
  $if(linestretch)$
  \usepackage{setspace}
  \setstretch{$linestretch$}
+ $endif$
+ $if(mainfont)$
+ \setmainfont[$for(mainfontoptions)$$mainfontoptions$$sep$,$endfor$]{$mainfont$}
+ $else$
+  \setmainfont{Constantia}[Numbers=Lining]
  $endif$
  $if(sansfont)$
      \setsansfont[$for(sansfontoptions)$$sansfontoptions$$sep$,$endfor$]{$sansfont$}
@@ -147,7 +153,7 @@ $for(presentation.item)$
 \cvitem{$presentation.item.year$}{$presentation.item.title$}
 $endfor$
 
-\section{Organizational and teaching activites}
+\section{Awards and honors}
 $for(teaching.item)$
 \cvitem{$teaching.item.year$}{$teaching.item.title$}
 $endfor$
