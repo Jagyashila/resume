@@ -11,13 +11,19 @@ $firstname$ $lastname$
 > (email: $email$ - phone: $phone$)
 
 
-SUMMARY
+EDUCATION
 -----------
 
-$summary$
+$for(education)$
+$education.dates$ $education.degree$
+$for(education.description)$
 
+$education.description$$sep$
+$endfor$
 
-EXPERIENCE
+$endfor$
+
+RESEARCH EXPERIENCE
 -----------
 
 $for(experience)$
@@ -31,18 +37,46 @@ $endfor$
 
 $endfor$
 
-CERTIFICATIONS
------------
-
-$for(certifications)$
-- $certifications.cert$: $certifications.description$
-$endfor$
-
 
 INTERESTS
 -----------
 
-$if(interests)$$interests$$endif$
+$for(interest.item)$
+$interest.item$$sep$
+$endfor$
+
+
+PUBLICATIONS
+-----------
+
+$for(publication.item)$
+$publication.item.year$ $publication.item.title$
+$endfor$
+
+
+Presentations and Workshops
+-----------
+$for(presentation.item)$
+$presentation.item.year$ $presentation.item.title$
+$endfor$
+
+Awards and honors
+-----------
+$for(teaching.item)$
+$teaching.item.year$ $teaching.item.title$
+$endfor$
+
+Technical skills
+-----------
+$for(skill.item)$
+$skill.item.type$ $skill.item.entry$
+$endfor$
+
+Other information
+------------
+$for(info.item)$
+$info.item.type$ $info.item.entry$
+$endfor$
 
 
 CONTACT INFORMATION
