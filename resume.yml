@@ -66,7 +66,7 @@ teaching:
   
 interest:
   item:
-    - Pregnancy, Placental Biology, Evolution and Adaptation, Multi-omics and Integrative data analysis
+    - Pregnancy, Placental Biology, Multi-omics and Integrative data analysis, Evolution and Adaptation
 
 presentation:
   item:
@@ -113,7 +113,7 @@ skill:
     - type: Programming languages
       entry: R (Advanced), Python (Intermediate)
     - type: Dry Lab Skills
-      entry: Array based data analysis, RNA-Seq, meQTL, Statistical modelling, Longitudinal data analysis, Integrative data analysis
+      entry: Array based data analysis, Bisulphite amplicon sequencing, RNA-Seq, meQTL, Statistical modelling, Longitudinal data analysis, Multi-Omics integrative data analysis
     - type: Wet Lab skills
       entry: DNA/RNA isolation, SDS PAGE, PCR, qPCR,  Yeast and bacterial transformation
 
